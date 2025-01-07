@@ -1,0 +1,219 @@
+/* .leckerli-one-regular {
+  font-family: "Leckerli One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lato-thin {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: italic;
+} */
+:root {
+  --color-bg-main: #fafafa;
+  --color-header: #7ac44f;
+  --color-nav: #5a923a;
+  --color-title: #164d1e;
+}
+.entete {
+  display: flex;
+  justify-content: space-between;
+  height: 10rem;
+  background-color: var(--color-header);
+}
+.entete-logo {
+  width: 20%;
+  text-align: center;
+}
+.logo {
+  max-height: 100%;
+}
+.nom {
+  width: 30%;
+  font-family: "Leckerli One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  color: var(--color-bg-main);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profil {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.photo-profil {
+  border: 2px solid var(--color-title);
+  border-radius: 50%;
+  max-width: 25%;
+}
+main {
+  display: flex;
+}
+.left {
+  width: 8%;
+  background-color: var(--color-nav);
+  display: flex;
+  justify-content: center;
+}
+.nav-liste {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  list-style-type: none;
+}
+.nav-item a {
+  color: var(--color-bg-main);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.mon-code {
+  flex-grow: 1;
+}
+footer {
+  background-color: var(--color-header);
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.haut {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  height: 80%;
+  margin-top: 2rem;
+}
+.navigation,
+.adresse {
+  width: 20%;
+  text-align: center;
+}
+.navigation-titre,
+.adresse-titre {
+  font-family: "Leckerli One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: var(--color-bg-main);
+  margin-bottom: 1rem;
+}
+.item {
+  margin-bottom: 0.5rem;
+  color: var(--color-title);
+  font-size: 1.3rem;
+}
+.item a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: var(--color-title);
+}
+.centre {
+  width: 35%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.cimer-albert {
+  background-color: rgba(90, 146, 58, 0.4);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cimer {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-bg-main);
+}
+.albert {
+  font-size: 1.3rem;
+  border: 2px solid var(--color-bg-main);
+  width: 60%;
+  padding: 0.4rem;
+  margin: 0 auto;
+  color: var(--color-bg-main);
+}
+.cimer,
+.albert {
+  font-family: "Leckerli One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.copyright {
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-title);
+}
