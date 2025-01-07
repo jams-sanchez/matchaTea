@@ -69,6 +69,12 @@ main {
 a:hover {
   font-weight: bold;
 }
+/* --- effacement du checkbox ---*/
+label,
+#bg-menu {
+  display: none;
+}
+/* --- Partie de droite --- */
 .right {
   display: flex;
   flex-direction: column;
@@ -157,4 +163,79 @@ footer {
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--color-title);
+}
+
+/* --------------------  MEDIA QUERIES ----------------------------- */
+
+@media (max-width: 576px) {
+  .entete-logo {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    max-width: 100%;
+  }
+  .nom {
+    width: 50%;
+  }
+  .profil {
+    width: 25%;
+  }
+  .profil img {
+    max-width: 50%;
+  }
+  main {
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+  .nav-liste {
+    writing-mode: horizontal-tb;
+    transform: rotate(360deg);
+  }
+  .nav-item {
+    padding: 0.5rem;
+  }
+  .nav-bar {
+    height: auto;
+    display: none;
+    justify-content: center;
+    z-index: 1;
+  }
+  label {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  #bg-menu:checked + .nav-bar {
+    display: flex;
+  }
+  .haut {
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  .navigation-titre,
+  .adresse-titre {
+    font-size: 1.2rem;
+  }
+  .navigation,
+  .adresse {
+    width: 25%;
+  }
+  .centre {
+    width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .haut {
+    margin-top: 1rem;
+  }
 }
