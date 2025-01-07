@@ -70,6 +70,9 @@
 }
 
 /* ------------------------------- ACCUEIL ------------------------------------- */
+.mon-code {
+  max-height: auto;
+}
 .main {
   margin: 0 auto;
 }
@@ -149,3 +152,58 @@ textarea {
   cursor: pointer;
 }
 /* ------------------------------- VENTE ------------------------------------- */
+.vente {
+  margin: 2rem;
+}
+.vente-titre {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.article-vente {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+.article {
+  background-color: #ffffff;
+  width: 25%;
+  border: 2px solid var(--color-header);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px var(--color-header);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.article-nom {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+.article-saveur {
+  margin: 0 auto;
+  font-size: 1.1rem;
+  width: 80%;
+  padding: 1rem;
+}
+.article-prix {
+  font-weight: bold;
+}
+.article-panier {
+  width: 70%;
+  margin: 0 auto;
+}
+.article-panier input {
+  height: auto;
+  background-color: var(--color-header);
+  color: var(--color-bg-main);
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.article-panier input:hover {
+  background-color: var(--color-title);
+}
