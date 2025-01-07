@@ -23,6 +23,7 @@
     />
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../style-commun.css" />
+    <link rel="stylesheet" href="./matcha1.css" />
   </head>
   <body>
     <header class="entete">
@@ -61,7 +62,48 @@
       </div>
       <div class="right">
         <section class="mon-code">
-          <p>CONTACT</p>
+          <h2 class="contact-titre">Nous Contacter</h2>
+          <form action="" method="get" class="form">
+            <div class="form-contact">
+              <input
+                type="text"
+                name="nom"
+                id="nom"
+                placeholder="Votre Nom"
+                required
+              />
+            </div>
+            <div class="form-contact">
+              <input
+                type="text"
+                name="prenom"
+                id="prenom"
+                placeholder="Votre Prénom"
+                required
+              />
+            </div>
+            <div class="form-contact">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Votre email"
+                required
+              />
+            </div>
+            <div class="form-contact">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Votre Message"
+                rows="10"
+                cols="40"
+              ></textarea>
+            </div>
+            <div class="form-button">
+              <input type="submit" value="Envoyer" />
+            </div>
+          </form>
         </section>
         <footer>
           <div class="haut">

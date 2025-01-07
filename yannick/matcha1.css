@@ -68,3 +68,84 @@
   --color-nav: #5a923a;
   --color-title: #164d1e;
 }
+
+/* ------------------------------- ACCUEIL ------------------------------------- */
+.main {
+  margin: 0 auto;
+}
+.main,
+.main-center,
+.main-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-text,
+.main-img {
+  height: 50%;
+  width: 80%;
+  text-align: center;
+}
+.main-img {
+  margin: 3rem auto;
+}
+.main-text {
+  margin: 0 auto;
+}
+.main-img img {
+  width: 50%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.main-text h2 {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0 1.5rem;
+}
+/* ------------------------------- CONTACT ------------------------------------- */
+.contact-titre {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.form {
+  width: 60%;
+  margin: 3rem auto;
+  text-align: center;
+}
+input {
+  width: 40%;
+  height: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: 1px solid var(--color-nav);
+}
+textarea {
+  padding: 10px;
+  height: 6rem;
+  width: 40%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid var(--color-nav);
+}
+.form-button {
+  padding: 1rem;
+}
+.form-button input {
+  height: auto;
+  background-color: var(--color-header);
+  padding: 1rem;
+  font-size: 1.5rem;
+  width: 15%;
+  border-radius: 50%;
+}
+.form-button input:hover {
+  background-color: var(--color-title);
+  color: var(--color-bg-main);
+  cursor: pointer;
+}
+/* ------------------------------- VENTE ------------------------------------- */

@@ -135,9 +135,11 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
+  width: 85%;
 }
 .mon-code {
   flex-grow: 1;
+  background-color: var(--color-bg-main);
 }
 footer {
   background-color: var(--color-header);
@@ -217,3 +219,12 @@ footer {
   font-weight: 700;
   color: var(--color-title);
 }
+/* .fuck {
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+}
+.fuck img {
+  width: 40%;
+  max-height: 100%;
+} */
