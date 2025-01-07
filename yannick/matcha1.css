@@ -68,3 +68,217 @@
   --color-nav: #5a923a;
   --color-title: #164d1e;
 }
+
+/* ------------------------------- ACCUEIL ------------------------------------- */
+.mon-code {
+  max-height: auto;
+}
+.main {
+  margin: 0 auto;
+}
+.main,
+.main-center,
+.main-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-text,
+.main-img {
+  height: 50%;
+  width: 80%;
+  text-align: center;
+}
+.main-img {
+  margin: 3rem auto;
+}
+.main-text {
+  margin: 0 auto;
+}
+.main-img img {
+  width: 50%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.main-text h2 {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0 1.5rem;
+}
+/* ------------------------------- CONTACT ------------------------------------- */
+.contact-titre {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.form {
+  width: 60%;
+  margin: 3rem auto;
+  text-align: center;
+}
+input {
+  width: 40%;
+  height: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: 1px solid var(--color-nav);
+}
+textarea {
+  padding: 10px;
+  height: 6rem;
+  width: 40%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid var(--color-nav);
+}
+.form-button {
+  padding: 1rem;
+}
+.form-button input {
+  height: auto;
+  background-color: var(--color-header);
+  padding: 1rem;
+  font-size: 1.5rem;
+  width: 15%;
+}
+.form-button input:hover {
+  background-color: var(--color-title);
+  color: var(--color-bg-main);
+  cursor: pointer;
+}
+/* ------------------------------- VENTE ------------------------------------- */
+.vente {
+  margin: 2rem;
+}
+.vente-titre {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.article-vente {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+.article {
+  background-color: #ffffff;
+  width: 25%;
+  border: 2px solid var(--color-header);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px var(--color-header);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.article-nom {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+.article-saveur {
+  margin: 0 auto;
+  font-size: 1.1rem;
+  width: 80%;
+  padding: 1rem;
+}
+.article-prix {
+  font-weight: bold;
+}
+.article-panier {
+  width: 70%;
+  margin: 0 auto;
+}
+.article-panier input {
+  height: auto;
+  background-color: var(--color-header);
+  color: var(--color-bg-main);
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.article-panier input:hover {
+  background-color: var(--color-title);
+}
+
+/* --------------------  MEDIA QUERIES ----------------------------- */
+
+@media (max-width: 576px) {
+  /* Accueil */
+  .main {
+    width: 100%;
+  }
+  .main-img,
+  .main-text {
+    width: 100%;
+  }
+  .main-img img {
+    width: 90%;
+  }
+  /* CONTACT */
+  .form {
+    width: 100%;
+    margin: 0.5rem;
+  }
+  .form-contact input {
+    width: 60%;
+  }
+  textarea {
+    width: 60%;
+  }
+  .form-button input {
+    width: 35%;
+  }
+  /* VENTE */
+  .article-vente {
+    flex-direction: column;
+  }
+  .article {
+    width: 100%;
+  }
+  .article-panier input {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 1200px) {
+  /* ACCUEIL */
+  .main {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .main-img,
+  .main-text {
+    width: 100%;
+  }
+  .main-img img {
+    width: 90%;
+  }
+  /* CONTACT */
+  .form {
+    width: 100%;
+    margin: 0.5rem;
+  }
+  .form-contact input {
+    width: 60%;
+  }
+  textarea {
+    width: 60%;
+  }
+  .form-button input {
+    width: 35%;
+  }
+  /* VENTE */
+  .article {
+    width: 35%;
+  }
+  .article-panier input {
+    width: 50%;
+    font-size: 0.9rem;
+  }
+}

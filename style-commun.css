@@ -1,67 +1,3 @@
-/* .leckerli-one-regular {
-  font-family: "Leckerli One", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.lato-thin {
-  font-family: "Lato", serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.lato-light {
-  font-family: "Lato", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.lato-regular {
-  font-family: "Lato", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.lato-bold {
-  font-family: "Lato", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.lato-black {
-  font-family: "Lato", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.lato-thin-italic {
-  font-family: "Lato", serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.lato-light-italic {
-  font-family: "Lato", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.lato-regular-italic {
-  font-family: "Lato", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.lato-bold-italic {
-  font-family: "Lato", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.lato-black-italic {
-  font-family: "Lato", serif;
-  font-weight: 900;
-  font-style: italic;
-} */
 :root {
   --color-bg-main: #fafafa;
   --color-header: #7ac44f;
@@ -122,6 +58,9 @@ main {
   transform: rotate(180deg);
   list-style-type: none;
 }
+.nav-item {
+  height: 15%;
+}
 .nav-item a {
   color: var(--color-bg-main);
   font-size: 1.5rem;
@@ -130,14 +69,22 @@ main {
 a:hover {
   font-weight: bold;
 }
+/* --- effacement du checkbox ---*/
+label,
+#bg-menu {
+  display: none;
+}
+/* --- Partie de droite --- */
 .right {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
+  width: 85%;
 }
 .mon-code {
   flex-grow: 1;
+  background-color: var(--color-bg-main);
 }
 footer {
   background-color: var(--color-header);
@@ -216,4 +163,79 @@ footer {
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--color-title);
+}
+
+/* --------------------  MEDIA QUERIES ----------------------------- */
+
+@media (max-width: 576px) {
+  .entete-logo {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    max-width: 100%;
+  }
+  .nom {
+    width: 50%;
+  }
+  .profil {
+    width: 25%;
+  }
+  .profil img {
+    max-width: 50%;
+  }
+  main {
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+  .nav-liste {
+    writing-mode: horizontal-tb;
+    transform: rotate(360deg);
+  }
+  .nav-item {
+    padding: 0.5rem;
+  }
+  .nav-bar {
+    height: auto;
+    display: none;
+    justify-content: center;
+    z-index: 1;
+  }
+  label {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  #bg-menu:checked + .nav-bar {
+    display: flex;
+  }
+  .haut {
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  .navigation-titre,
+  .adresse-titre {
+    font-size: 1.2rem;
+  }
+  .navigation,
+  .adresse {
+    width: 25%;
+  }
+  .centre {
+    width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .haut {
+    margin-top: 1rem;
+  }
 }
