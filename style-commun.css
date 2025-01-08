@@ -233,9 +233,18 @@ footer {
   .centre {
     width: 50%;
   }
+  footer {
+    margin-top: 1rem;
+  }
 }
 @media (max-width: 900px) {
   .haut {
     margin-top: 1rem;
+  }
+  .profil {
+    width: 25%;
+  }
+  .profil img {
+    max-width: 50%;
   }
 }
