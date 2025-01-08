@@ -86,6 +86,7 @@
     line-height: 29px;
 }
 
+
 .photos{
     width: 70%;
     margin: auto;
@@ -126,14 +127,13 @@
     line-height: 22px;
    
 }
-
-  
+ 
 }
 
 
 @media (max-width: 576px){
   .mon-code{
-    padding: 2rem;
+    padding: 0.5rem;
 }
   .titres{
     font-size: 32px;
