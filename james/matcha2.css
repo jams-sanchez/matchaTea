@@ -159,3 +159,23 @@ hr {
 }
 
 
+/* mon compte */
+
+.account-box {
+    width: 100%;
+    margin: 0 auto 2.5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    gap: 2rem;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
