@@ -113,6 +113,26 @@
   font-size: 20px;
 }
 
+.box-the{
+  display: flex;
+  justify-content: space-evenly;
+}
+.texte{
+  width: 70%;
+}
+.photo-the{
+  width: 30%;
+}
+.photo-the img{
+  width: 80%;
+  border-radius: 25px;
+  box-shadow: 0 8px 32px 0 #164d1e36;
+  backdrop-filter: blur( 2.5px );
+  border: 1px solid #164d1e1d;
+  
+}
+
+
 
 /*RESPONSIVE*/
 @media (max-width: 768px){
