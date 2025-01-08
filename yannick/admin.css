@@ -1,0 +1,57 @@
+:root {
+  --color-bg-main: #fafafa;
+  --color-header: #7ac44f;
+  --color-nav: #5a923a;
+  --color-title: #164d1e;
+}
+
+.admin {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.admin-titre {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.admin-liens {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.admin-acces {
+  background-color: var(--color-header);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 10rem;
+  height: 4rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 50%;
+  position: relative;
+}
+.admin-lien-acces {
+  color: var(--color-bg-main);
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+.notification {
+  width: 2rem;
+  height: 2rem;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--color-bg-main);
+  font-weight: 700;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
