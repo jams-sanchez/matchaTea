@@ -3,21 +3,57 @@
     --color-header: #7ac44f;
     --color-nav: #5a923a;
     --color-title: #164d1e;
-  } */
-
-
-
+    } */
+    
+/* .right {
+    display: block;
+    } */
+        
 * {
     box-sizing: border-box;
 }
-
+        
 .james-main {
     font-family: "Lato", serif ;
     font-weight: 400;
     font-style: normal;
 }
+        
+    /* titre categories */
+        
+h3 {
+    font-family: "Leckerli One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--color-nav);
+}
+        
+        
+.category {
+    width: 100%;
+    height: 6rem;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin: 0 auto 2rem;
+}
+        
+.icon-logo {
+    width: 2.5rem;
+}
+        
 /* mini nav barre */
-
+        
+.title-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:0;
+}
+        
 .mini-nav {
     width: 100%;
     display: flex;
@@ -25,10 +61,16 @@
     gap: 3rem;
     margin-top: 3.5rem;
 }
+        
+.tab-active,
+.tab-inactive {
+    width: 20%;
+    max-width: 12rem;
+}
 
 .tab-active a,
 .tab-inactive a {
-    width: 12rem;
+    /* width: 12rem; */
     height: 3rem;
     padding: 0.8rem 0.3rem 0.3rem;
     border-radius: 15px 15px 0 0 ;
@@ -53,31 +95,6 @@
 
 .tab-inactive a:hover {
     font-weight: bold;
-}
-
-/* titre categories */
-
-h3 {
-    font-family: "Leckerli One", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem;
-    color: var(--color-nav);
-}
-
-.category {
-    width: 100%;
-    height: 3rem;
-    background-color: #f7f7f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 6rem;
-    margin: 0 auto 2rem;
-}
-
-.icon-logo {
-    width: 2.5rem;
 }
 
 /* info perso box */
@@ -142,7 +159,7 @@ button {
 /*  info perso texte */
 
 .info-box {
-    width: 50%;
+    width: 40%;
     display: flex;
     gap: 2.5rem;
     justify-content: space-evenly;
@@ -200,10 +217,6 @@ hr {
 
 /* mon compte */
 
-.right {
-    display: block;
-}
-
 .account-box {
     width: 100%;
     margin: 0 auto 2.5rem;
@@ -226,7 +239,7 @@ hr {
 /* page commandes */
 
 .buy-order-box {
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
     padding: 1rem;
     display: flex;
@@ -259,6 +272,8 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .titre-order {
