@@ -5,7 +5,7 @@
     --color-title: #164d1e;
   } */
 
-/* titre categories */
+
 
 * {
     box-sizing: border-box;
@@ -16,6 +16,46 @@
     font-weight: 400;
     font-style: normal;
 }
+/* mini nav barre */
+
+.mini-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3.5rem;
+}
+
+.tab-active a,
+.tab-inactive a {
+    width: 12rem;
+    height: 3rem;
+    padding: 0.8rem 0.3rem 0.3rem;
+    border-radius: 15px 15px 0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-decoration: none;
+    color: var(--color-title);
+    font-weight: 400;
+}
+
+.tab-active a {
+    background-color: #f7f7f7;
+}
+
+.tab-inactive a {
+    font-weight: 400;
+    background-color: #dddddd;
+    color: var(--color-title);
+    border-bottom: 6px solid #fff;
+}
+
+.tab-inactive a:hover {
+    font-weight: bold;
+}
+
+/* titre categories */
 
 h3 {
     font-family: "Leckerli One", serif;
@@ -33,7 +73,7 @@ h3 {
     justify-content: center;
     align-items: center;
     gap: 6rem;
-    margin: 2rem auto;
+    margin: 0 auto 2rem;
 }
 
 .icon-logo {
@@ -43,12 +83,11 @@ h3 {
 /* info perso box */
 
 .category-box {
-    width: 100%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 0 auto 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
-    gap: 3.5rem;
 }
 
 /* image profil */
@@ -72,7 +111,7 @@ h3 {
     height: 100%;
     border-radius: 50%;
     border: 0.5rem solid transparent;
-    outline: 0.3rem solid var(--color-header);
+    outline: 0.3rem solid #4e4e4e;
 }
 
 .button-box {
@@ -103,14 +142,14 @@ button {
 /*  info perso texte */
 
 .info-box {
-    width: 60%;
+    width: 50%;
     display: flex;
     gap: 2.5rem;
     justify-content: space-evenly;
 }
 
 .box-1 {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,7 +180,7 @@ button {
     width: 50%;
     height: 3px;
     background-color: transparent;
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(90,146,58,1) 50%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(78,78,78,1) 50%, rgba(255,255,255,0) 100%);
 }
 
 .adress-box {
@@ -193,14 +232,14 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin-bottom: 4.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .top-box {
     background-color: var(--color-header);
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.8rem;
     color: var(--color-title);
 }
 
@@ -208,6 +247,13 @@ hr {
 .status span {
     padding-left: 1rem;
 }
+
+.order-number {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
 
 .items-list {
     display: flex;
@@ -223,15 +269,15 @@ hr {
 }
 
 .bottom-box h3 {
-    padding: 1rem 2.5rem;
+    padding: 1rem 2.5rem 0;
     text-align: center;
 }
 
 .bottom-box {
-    background-color: #fafafa;
+    background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 1rem 1rem 2.5rem;
     gap:1rem;
 }
 
