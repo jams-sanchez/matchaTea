@@ -67,8 +67,7 @@
 /*FIN FONTS*/
 
 .mon-code{
-    margin: 50px;
-
+    padding: 6rem;
 }
 .titres{
     color: #164D1E;
@@ -92,6 +91,7 @@
     margin: auto;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .photos img{
@@ -104,3 +104,37 @@
     transform: scale(1.05);
 }
 
+
+
+
+/*RESPONSIVE*/
+@media (max-width: 768px){
+  .mon-code{
+    padding: 4rem;
+}
+  .titres{
+    font-size: 36px;
+  }
+  .mon-code p{
+    font-size: 18px;
+    line-height: 22px;
+   
+}
+
+  
+}
+
+
+@media (max-width: 576px){
+  .mon-code{
+    padding: 2rem;
+}
+  .titres{
+    font-size: 32px;
+  }
+  .mon-code p{
+    font-size: 14px;
+   
+}
+
+}
