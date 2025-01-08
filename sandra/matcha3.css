@@ -113,18 +113,17 @@
   font-size: 20px;
 }
 
-.box-the{
-  display: flex;
-  justify-content: space-evenly;
-}
+
 .texte{
   width: 70%;
 }
 .photo-the{
+  margin: auto;
   width: 30%;
 }
 .photo-the img{
-  width: 80%;
+  margin: auto;
+  width: 100%;
   border-radius: 25px;
   box-shadow: 0 8px 32px 0 #164d1e36;
   backdrop-filter: blur( 2.5px );
@@ -135,6 +134,12 @@
 
 
 /*RESPONSIVE*/
+@media (max-width: 1024px){
+ .photo-the{
+  width: 50%;
+ } 
+}
+
 @media (max-width: 768px){
   .mon-code{
     padding: 4rem;
@@ -145,9 +150,7 @@
   .mon-code p{
     font-size: 18px;
     line-height: 22px;
-   
-}
- 
+} 
 }
 
 
