@@ -10,6 +10,11 @@
 .right {
   margin: 0 auto;
 }
+.profil {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-right: 2rem;
+}
 /* ----------------------- INDEX ----------------------------*/
 .admin {
   width: 80%;
