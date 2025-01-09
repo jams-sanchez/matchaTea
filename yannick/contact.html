@@ -7,67 +7,54 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="../images/Matcha_pepite_icon.ico"
-    />
+      href="/images/Matcha_pepite_icon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Leckerli+One&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../reset.css" />
-    <link rel="stylesheet" href="../style-commun.css" />
-    <link rel="stylesheet" href="./matcha1.css" />
+      rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/yannick/matcha1.css" />
+    <link rel="stylesheet" href="/james/matcha2.css" />
+    <link rel="stylesheet" href="/sandra/matcha3.css" />
   </head>
   <body>
-    <header class="entete">
-      <div class="entete-logo">
-        <a href="../index.html">
-          <img
-            src="../images/Matcha_pepite_3.png"
-            alt="matcha pepite logo"
-            class="logo"
-          />
-        </a>
-      </div>
-      <div class="nom">
-        <h1>Matcha Pépite</h1>
-      </div>
-      <div class="profil">
-        <a href="../james/profil.html">
-          <img
-            src="../images/chauve.png"
-            alt="photo de profil"
-            class="photo-profil"
-          />
-        </a>
-      </div>
+    <header>
+      <a href="/index.html">
+        <img
+          src="/images/Matcha_pepite_3.png"
+          alt="matcha pepite logo"
+          class="logo" />
+      </a>
+      <h1>Matcha Pépite</h1>
+      <a href="/james/profil.html">
+        <img
+          src="/images/chauve.png"
+          alt="photo de profil"
+          class="my-account" />
+      </a>
     </header>
     <main>
       <div class="left">
-        <nav class="nav-bar-bg">
-          <!-- DEBUT menu burger -->
-          <label for="bg-menu"> ☰ </label>
-          <input type="checkbox" id="bg-menu" />
-          <!-- FIN menu burger -->
-          <div class="nav-bar">
-            <ul class="nav-liste">
-              <li class="nav-item">
-                <a href="./contact.html"> Contact</a>
-              </li>
-              <li class="nav-item"><a href="#">A propos</a></li>
-              <li class="nav-item"><a href="#">Histoire</a></li>
-              <li class="nav-item"><a href="./vente.html">Vente</a></li>
-            </ul>
-          </div>
+        <!-- DEBUT menu burger -->
+        <label for="bg-menu"> ☰ </label>
+        <input type="checkbox" id="bg-menu" />
+        <!-- FIN menu burger -->
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="/sandra/histoire.html">Histoire</a></li>
+            <li><a href="/sandra/apropos.html">A propos</a></li>
+            <li><a href="/yannick/vente.html">Vente</a></li>
+            <li><a href="/yannick/contact.html">Contact</a></li>
+          </ul>
         </nav>
       </div>
+      <!-- ICI Commence mon code-perso -->
       <div class="right">
         <section class="mon-code">
           <h2 class="contact-titre">Nous Contacter</h2>
@@ -78,8 +65,7 @@
                 name="nom"
                 id="nom"
                 placeholder="Votre Nom"
-                required
-              />
+                required />
             </div>
             <div class="form-contact">
               <input
@@ -87,8 +73,7 @@
                 name="prenom"
                 id="prenom"
                 placeholder="Votre Prénom"
-                required
-              />
+                required />
             </div>
             <div class="form-contact">
               <input
@@ -96,8 +81,7 @@
                 name="email"
                 id="email"
                 placeholder="Votre email"
-                required
-              />
+                required />
             </div>
             <div class="form-contact">
               <textarea
@@ -105,41 +89,39 @@
                 id="message"
                 placeholder="Votre Message"
                 rows="10"
-                cols="40"
-              ></textarea>
+                cols="40"></textarea>
             </div>
             <div class="form-button">
               <input type="submit" value="Envoyer" />
             </div>
           </form>
         </section>
+        <!-- FIN code-perso -->
         <footer>
-          <div class="haut">
-            <section class="navigation">
-              <h3 class="navigation-titre">Navigation</h3>
-              <ul class="navigation-liste">
-                <li class="item"><a href="../index.html">Accueil</a></li>
-                <li class="item"><a href="#">Histoire</a></li>
-                <li class="item"><a href="#">A propos</a></li>
-                <li class="item"><a href="./vente.html">Vente</a></li>
-                <li class="item">
-                  <a href="./contact.html">Contact</a>
-                </li>
+          <section class="footer-box">
+            <section class="footer-info">
+              <h3 class="footer-titre">Navigation</h3>
+              <ul class="footer-list">
+                <li><a href="/index.html">Accueil</a></li>
+                <li><a href="/sandra/histoire.html">Histoire</a></li>
+                <li><a href="/sandra/apropos.html">A propos</a></li>
+                <li><a href="/yannick/vente.html">Vente</a></li>
+                <li><a href="/yannick/contact.html">Contact</a></li>
               </ul>
             </section>
-            <div class="centre">
-              <div class="cimer-albert">
-                <p class="cimer">Thanks for shopping by !</p>
-                <p class="albert">Let's keep in touch</p>
-              </div>
-            </div>
-            <section class="adresse">
-              <h3 class="adresse-titre">Coordonnées</h3>
-              <p class="item">8 rue Hozier</p>
-              <p class="item">13666</p>
-              <p class="item">Marseille</p>
+            <section class="footer-middle">
+              <p>Merci d'être passé !</p>
+              <p class="bye-box1">Restons en contact</p>
             </section>
-          </div>
+            <section class="footer-info">
+              <h3 class="footer-titre">Coordonnées</h3>
+              <article class="footer-adress">
+                <p>8 rue Hozier</p>
+                <p>13666</p>
+                <p>Marseille</p>
+              </article>
+            </section>
+          </section>
           <div class="copyright">
             <p>La Plateforme_2025</p>
           </div>
