@@ -79,23 +79,20 @@ main {
 
 .nav-bar {
     width: 100%;
-    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .nav-bar ul {
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    padding-top: 2.5rem;
 }
 
 .nav-bar li {
-    height: 15%;
+    height: 10rem;
     align-content: center;
     padding-bottom: 1rem;
     border-bottom: 2px solid #ffffff42;
@@ -108,6 +105,10 @@ main {
     font-weight: 600;
     font-size: 1.2rem;
     color: var(--color-title);
+}
+
+.nav-bar a:hover {
+    color: var(--color-bg-main);
 }
 
 
