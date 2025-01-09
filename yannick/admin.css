@@ -154,6 +154,7 @@ tfoot td {
   justify-content: space-between;
   border: 2px solid var(--color-header);
   border-radius: 15px;
+  box-shadow: 0 0 9px var(--color-title);
 }
 .produit-photo {
   width: 20%;
