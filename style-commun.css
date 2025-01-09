@@ -4,6 +4,9 @@
   --color-nav: #5a923a;
   --color-title: #164d1e;
 }
+a {
+  text-decoration: none;
+}
 .entete {
   display: flex;
   justify-content: space-between;

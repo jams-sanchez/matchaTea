@@ -178,6 +178,7 @@ tfoot td {
   max-height: 90%;
   width: 50%;
   margin: 0 auto;
+  cursor: pointer;
 }
 .prix .produit-stock {
   width: 20%;
@@ -225,6 +226,7 @@ tfoot td {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  cursor: pointer;
 }
 .stock-plus,
 .stock-moins {
