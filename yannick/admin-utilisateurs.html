@@ -22,51 +22,32 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../reset.css" />
-    <link rel="stylesheet" href="../style-commun.css" />
+    <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="./admin.css" />
   </head>
   <body>
-    <header class="entete">
-      <div class="entete-logo">
-        <a href="../index.html">
-          <img
-            src="../images/Matcha_pepite_3.png"
-            alt="matcha pepite logo"
-            class="logo"
-          />
-        </a>
-      </div>
-      <div class="nom">
-        <h1>Matcha Pépite</h1>
-      </div>
-      <div class="profil">
-        <h3>Page Administrateur</h3>
-      </div>
+    <header>
+      <a href="../index.html">
+        <img
+          src="../images/Matcha_pepite_3.png"
+          alt="matcha pepite logo"
+          class="logo"
+        />
+      </a>
+      <h1>Matcha Pépite</h1>
+      <a href="../james/profil.html">
+        <img
+          src="../images/chauve.png"
+          alt="photo de profil"
+          class="my-account"
+        />
+      </a>
     </header>
     <main>
-      <div class="left">
-        <nav class="nav-bar-bg">
-          <!-- DEBUT menu burger -->
-          <label for="bg-menu"> ☰ </label>
-          <input type="checkbox" id="bg-menu" />
-          <!-- FIN menu burger -->
-          <div class="nav-bar">
-            <ul class="nav-liste">
-              <li class="nav-item">
-                <a href="./contact.html"> Contact</a>
-              </li>
-              <li class="nav-item"><a href="#">A propos</a></li>
-              <li class="nav-item"><a href="#">Histoire</a></li>
-              <li class="nav-item"><a href="./vente.html">Vente</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
       <div class="right">
         <section class="mon-code">
           <!-- ICI Commence mon code-perso -->
           <section class="admin-client">
-            <h2 class="admin-titre">Administrateur Yannick</h2>
             <ul class="admin-liens">
               <li class="admin-acces">
                 <div class="notification">150</div>
@@ -159,32 +140,30 @@
           <!-- FIN code-perso -->
         </section>
         <footer>
-          <div class="haut">
-            <section class="navigation">
-              <h3 class="navigation-titre">Navigation</h3>
-              <ul class="navigation-liste">
-                <li class="item"><a href="./index.html">Accueil</a></li>
-                <li class="item"><a href="#">Histoire</a></li>
-                <li class="item"><a href="#">A propos</a></li>
-                <li class="item"><a href="./vente.html">Vente</a></li>
-                <li class="item">
-                  <a href="./contact.html">Contact</a>
-                </li>
+          <section class="footer-box">
+            <section class="footer-info">
+              <h3 class="footer-titre">Navigation</h3>
+              <ul class="footer-list">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="sandra/histoire.html">Histoire</a></li>
+                <li><a href="sandra/apropos.html">A propos</a></li>
+                <li><a href="yannick/vente.html">Vente</a></li>
+                <li><a href="yannick/contact.html">Contact</a></li>
               </ul>
             </section>
-            <div class="centre">
-              <div class="cimer-albert">
-                <p class="cimer">Thanks for shopping by !</p>
-                <p class="albert">Let's keep in touch</p>
-              </div>
-            </div>
-            <section class="adresse">
-              <h3 class="adresse-titre">Coordonnées</h3>
-              <p class="item">8 rue Hozier</p>
-              <p class="item">13666</p>
-              <p class="item">Marseille</p>
+            <section class="footer-middle">
+              <p>Merci d'être passé !</p>
+              <p class="bye-box1">Restons en contact</p>
             </section>
-          </div>
+            <section class="footer-info">
+              <h3 class="footer-titre">Coordonnées</h3>
+              <article class="footer-adress">
+                <p>8 rue Hozier</p>
+                <p>13666</p>
+                <p>Marseille</p>
+              </article>
+            </section>
+          </section>
           <div class="copyright">
             <p>La Plateforme_2025</p>
           </div>
