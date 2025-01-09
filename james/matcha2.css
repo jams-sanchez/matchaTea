@@ -237,16 +237,18 @@ hr {
     gap: 2rem;
 }
 
-/* page commandes */
+/* PAGE commandes */
 
 .buy-order-box {
     width: 60%;
     margin: 0 auto;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin-bottom: 2.5rem;
+}
+
+.bold-order {
+    font-weight: bold;
 }
 
 .top-box {
@@ -293,7 +295,9 @@ hr {
     background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
-    padding: 1rem 1rem 2.5rem;
+    align-items: center;
+    /* padding: 1rem 1rem 2.5rem; */
+    padding: 1.5rem;
     gap:1rem;
 }
 
@@ -352,6 +356,10 @@ hr {
         width: 70%;
     }
 
+    .buy-order-box {
+        width: 90%;
+    }
+
 }
 
 @media screen and (max-width:768px) {
@@ -394,7 +402,7 @@ hr {
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:601px) {
 
     .image-box {
         flex-direction: column;
@@ -427,4 +435,34 @@ hr {
         padding: 0;
         align-items: center;
     }
+
+    .items-list {
+        width: 100%;
+        margin: 0;
+    }
+
+    .items-box,
+    .fees,
+    .total {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .top-box {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .bottom-box {
+        width: 100%;
+        padding: 0 0 1rem;
+    }
+
+    .buy-order-box {
+        width: 100%;
+    }
+
+
 }
