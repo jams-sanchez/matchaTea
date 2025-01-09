@@ -7,17 +7,13 @@
 
 /* titre categories */
 
-* {
-    box-sizing: border-box;
-}
-
 .james-main {
     font-family: "Lato", serif ;
     font-weight: 400;
     font-style: normal;
 }
 
-h3 {
+.james-main h3 {
     font-family: "Leckerli One", serif;
     font-weight: 400;
     font-style: normal;
