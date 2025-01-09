@@ -1,10 +1,13 @@
 :root {
-    --color-bg-main: #eaeaea;
+    --color-bg-main: #fafafa;
     --color-header: #7ac44f;
     --color-nav: #5a923a;
     --color-title: #164d1e;
     --color-text: #1F1F1F;
-    --color-footer: #fff;
+    --color-blanc: #fff;
+    --color-footer: #E7F2E0;
+    --color-footer-middle: #D7EBCB;
+    
 }
 
 label,
@@ -33,13 +36,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
 }
 
 header h1 {
     font-family: "Leckerli One", serif;
     font-size: 4rem;
-    color: var(--color-footer);
+    color: var(--color-blanc);
 }
 
 header a {
@@ -124,22 +126,22 @@ main {
 .banner {
     background-image: url(images/banner-matcha.jpg);
     background-size: cover;
-    height: 50%;
+    height: 35rem;
     min-height: 25rem;
     align-content: center;
+    background-position: bottom;
 }
 
 .slogan {
-    background-color: #00000009;
-    width: 50%;
+    width: 35%;
     margin: 0 auto;
     text-align: center;
-    color: var(--color-footer);
+    color: var(--color-blanc);
     padding: 1rem;
-    -webkit-backdrop-filter: blur(3px); /* safari */
-    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(2px); /* safari */
+    backdrop-filter: blur(2px);
     border-radius: 20px;
-    border: 2px solid var(--color-bg-main);
+    text-shadow: #164d1e 1px 0 10px;
 }
 
 .banner h2,
@@ -150,7 +152,8 @@ main {
 }
 
 .banner h2 {
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-bottom: 0.8rem;
 }
 
 .banner h3,
@@ -179,7 +182,7 @@ main {
 }
 
 .best-items {
-    background-color: var(--color-footer);
+    background-color: var(--color-blanc);
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -226,7 +229,7 @@ main {
     height: auto;
     margin-top: 1rem;
     background-color: var(--color-header);
-    color: var(--color-footer);
+    color: var(--color-blanc);
     padding: 0.5rem;
     border-radius: 5px;
     border: 1px solid var(--color-nav);
@@ -251,6 +254,8 @@ footer {
     padding: 2rem 0 1rem;
     gap: 1rem;
 }
+
+
 
 .footer-box {
     width: 100%;
@@ -288,13 +293,13 @@ footer {
 .footer-info a,
 .footer-info p {
     text-decoration: none;
-    color: var(--color-header);
+    color: var(--color-text);
     font-size: 1.1rem;
     padding-bottom: 0.3rem;
 }
 
 .footer-middle {
-    background-color: var(--color-bg-main);
+    background-color: var(--color-footer-middle);
     width: 50%;
     min-width: 20rem;
     height: 100%;
@@ -305,20 +310,31 @@ footer {
     gap: 1rem;
     font-weight: 400;
     font-size: 1.3rem;
+    border-radius: 30px;
+}
+
+.footer-middle p{
+    font-family: "Leckerli One", serif;
 }
 
 .bye-box1 {
-    width: 60%;
+    width: 35%;
     min-width: 14rem;
     height: 40%;
+    min-height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--color-text);
-    font-family: "Leckerli One", serif;
-    font-weight: 400;
     font-size: 1.5rem;
+    font-family: "Lato", serif !important;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: var(--color-header);
+    border-radius: 10px;
+    cursor: pointer;
 }
+
+
 
 @media screen and (max-width:769px) {
     
@@ -377,6 +393,14 @@ footer {
     .footer-middle {
         margin: 1rem auto;
         padding: 1.5rem 0;
+    }
+
+    .footer-resp{
+        display: none;
+    }
+
+    .bye-box1{
+        font-size: 1.2rem;
     }
 }
 
@@ -440,7 +464,7 @@ footer {
     
     .nav-bar a {
         height: 8rem;
-        color: var(--color-footer);
+        color: var(--color-blanc);
         font-size: 1.8rem;
         transform: rotate(0deg);
         writing-mode: horizontal-tb;
@@ -459,6 +483,10 @@ footer {
     .right,
     footer {
         width: 100%;
+    }
+
+    .bye-box1{
+        font-size: 1rem;
     }
 }
 
