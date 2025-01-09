@@ -122,7 +122,7 @@ main {
 }
 
 .banner {
-    background-image: url(/images/banner-matcha.jpg);
+    background-image: url(images/banner-matcha.jpg);
     background-size: cover;
     height: 50%;
     min-height: 25rem;
