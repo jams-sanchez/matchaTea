@@ -1,0 +1,169 @@
+/*FONTS*/
+.leckerli-one-regular {
+    font-family: "Leckerli One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lato-thin {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+/*FIN FONTS*/
+
+.mon-code{
+    padding: 2rem 6rem;
+    font-family: "Lato", serif;
+    font-weight: 400;
+}
+.titres{
+    color: #164D1E;
+    font-family: "Leckerli One", serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+.mon-code p{    
+    font-size: 22px;
+    margin: 50px;
+    text-align: justify;
+    line-height: 29px;
+}
+
+
+.photos{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photos img{
+    margin-top: 30px;
+    border-radius: 100%;
+    width: 15rem;
+}
+
+.photos img:hover{
+    transform: scale(1.05);
+}
+
+.photos figcaption{
+  margin-bottom: 20px;
+}
+.titre-sm{
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.texte{
+  width: 70%;
+}
+.photo-the{
+  margin: auto;
+  width: 30%;
+}
+.photo-the img{
+  margin: auto;
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 0 8px 32px 0 #164d1e36;
+  backdrop-filter: blur( 2.5px );
+  border: 1px solid #164d1e1d;
+  
+}
+
+
+
+/*RESPONSIVE*/
+@media (max-width: 1024px){
+ .photo-the{
+  width: 50%;
+ } 
+}
+
+@media (max-width: 768px){
+  .mon-code{
+    padding: 4rem;
+}
+  .titres{
+    font-size: 36px;
+  }
+  .mon-code p{
+    font-size: 18px;
+    line-height: 22px;
+} 
+}
+
+
+@media (max-width: 576px){
+  .mon-code{
+    padding: 0.5rem;
+}
+  .titres{
+    font-size: 32px;
+  }
+  .mon-code p{
+    font-size: 14px;
+   
+}
+
+}
