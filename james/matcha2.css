@@ -3,25 +3,17 @@
     --color-header: #7ac44f;
     --color-nav: #5a923a;
     --color-title: #164d1e;
-    } */
-    
-/* .right {
-    display: block;
-    } */
-        
-* {
-    box-sizing: border-box;
-}
-        
+  } */
+
+/* titre categories */
+
 .james-main {
     font-family: "Lato", serif ;
     font-weight: 400;
     font-style: normal;
 }
-        
-    /* titre categories */
-        
-h3 {
+
+.james-main h3 {
     font-family: "Leckerli One", serif;
     font-weight: 400;
     font-style: normal;
