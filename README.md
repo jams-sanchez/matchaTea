@@ -12,15 +12,18 @@ Dans le cadre d'un projet de groupe, nous avions 1 semaine pour développer la p
 
 Les pages demandées :
 
-- une page d'Accueil
-- une page A propos
-- une page Histoire
-- une page Contact
+- **Accueil**
+- **A propos**
+- **Histoire**
+- **Contact**
+- **Vente**
+- **Profil**
+- **Commandes**
 
 _Bonus :_
 
 - une page panel admin ou panel client/user
-- un espace admin de 3 pages
+- un espace administrateur comprennant 3 pages
   - liste des clients
   - liste des commandes
   - liste des produits
@@ -30,11 +33,11 @@ _Bonus :_
 
 ## 💪 L'équipe
 
-👤 Yannick
+👤 Yannick [@Bossola-Yannick](https://github.com/bossola-yannick)
 
-👤 James
+👤 Sandra [@sandraMassonF](https://github.com/sandraMassonF)
 
-👤 Sandra
+👤 James 
 
 ## 💻 Les technologies
 
@@ -53,4 +56,9 @@ _Bonus :_
 
 ![Image de la charte graphique.](/images/charte-graphique.png)
 
-## 👀 [Site](https://jams-sanchez.github.io/matchaTea/)
+## 👀 Site
+
+Vous pouvez découvrir le site créé grâce à Github Pages
+
+[Matcha Pépite](https://jams-sanchez.github.io/matchaTea/)🍂
+
