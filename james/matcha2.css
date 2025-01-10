@@ -251,6 +251,10 @@ hr {
     font-weight: bold;
 }
 
+.small {
+    font-size: 0.8rem;
+}
+
 .top-box {
     background-color: var(--color-header);
     display: flex;
@@ -358,6 +362,10 @@ hr {
 
     .buy-order-box {
         width: 90%;
+    }
+
+    .bold {
+        font-size: 1.2rem;
     }
 
 }
