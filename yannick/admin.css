@@ -1,0 +1,249 @@
+:root {
+  --color-bg-main: #fafafa;
+  --color-header: #7ac44f;
+  --color-nav: #5a923a;
+  --color-title: #164d1e;
+}
+.left {
+  display: none;
+}
+.right {
+  margin: 0 auto;
+}
+.profil {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-right: 2rem;
+}
+/* ----------------------- INDEX ----------------------------*/
+.admin {
+  width: 80%;
+  height: 70vh;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.admin-titre {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+.admin-liens {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.admin-acces {
+  background-color: var(--color-header);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 13rem;
+  height: 4rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 0 9px #164d1e;
+  position: relative;
+}
+.admin-lien-acces {
+  color: var(--color-bg-main);
+  text-decoration: none;
+}
+.admin-lien-acces p {
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+.notification {
+  width: 2rem;
+  height: 2rem;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--color-bg-main);
+  font-weight: 700;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ---------------- CLIENTS ------------------------*/
+.listing-clients {
+  padding: 4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.listing-titre {
+  font-size: 2rem;
+  margin: 1rem;
+}
+table {
+  width: 60%;
+  margin: 0 auto;
+}
+thead,
+tbody,
+tfoot {
+  border: 2px solid black;
+  font-size: 1.2rem;
+}
+th {
+  font-weight: bold;
+}
+th,
+td {
+  padding: 1.2rem;
+  border: 1px solid black;
+}
+
+/* ------------------- COMMANDE ---------------------------*/
+tfoot td {
+  text-align: right;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.tableau-commande h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding: 1.5rem;
+}
+.tableau-commande {
+  margin: 1rem;
+  padding: 2rem;
+}
+.nouvelle-commande {
+  border-bottom: 2px solid black;
+}
+
+/* -------------------- PRODUITS -----------------------------*/
+.ajout {
+  text-align: center;
+  margin: 2rem;
+}
+.ajout-produit {
+  font-size: 1.5rem;
+  border: 1px solid var(--color-header);
+  border-radius: 50%;
+  background-color: #7ac44f;
+  box-shadow: 0 0 9px #164d1e;
+  width: 15rem;
+  margin: 0 auto;
+  padding: 1rem;
+  cursor: pointer;
+}
+.listing-produits {
+  text-align: center;
+  margin: 5rem 0;
+}
+.listing-produit-titre {
+  font-size: 2rem;
+  margin: 1rem;
+}
+.produit {
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid var(--color-header);
+  border-radius: 15px;
+  box-shadow: 0 0 9px var(--color-title);
+}
+.produit-photo {
+  width: 20%;
+}
+.produit-nom {
+  width: 15%;
+  border: 1px solid var(--color-header);
+}
+.produit-description {
+  width: 35%;
+}
+.produit-prix {
+  width: 10%;
+  border: 1px solid var(--color-header);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.prix-actuel,
+.prix-change {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.prix-actuel {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.prix-change {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+.prix-change img {
+  max-height: 90%;
+  width: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.prix .produit-stock {
+  width: 20%;
+}
+.produit-nom,
+.produit-description,
+.produit-prix {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.produit-nom,
+.produit-description {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.produit-stock {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.stock,
+.stock-variation {
+  height: 50%;
+  width: 100%;
+}
+.stock {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.stock-variation {
+  display: flex;
+  justify-content: space-around;
+}
+.stock-plus,
+.stock-moins,
+.stock-edit {
+  width: 33%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 1px solid var(--color-header);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+.stock-plus,
+.stock-moins {
+  font-size: 2.5rem;
+}
