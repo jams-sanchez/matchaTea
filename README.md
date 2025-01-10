@@ -26,7 +26,7 @@ _Bonus :_
   - liste des produits
 
 > [!NOTE]
-> Nous avions carte blanche sur la charte graphique.
+> Nous avions carte blanche pour la charte graphique.
 
 ## 💪 L'équipe
 
@@ -53,4 +53,4 @@ _Bonus :_
 
 ![Image de la charte graphique.](/images/charte-graphique.png)
 
-## 👀 Site
+## 👀 [Site](https://jams-sanchez.github.io/matchaTea/)
