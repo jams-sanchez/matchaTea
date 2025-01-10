@@ -340,6 +340,14 @@ footer {
   transform: scale(1.1);
 }
 
+.copyright p {
+  color: var(--color-text);
+}
+
+.copyright a {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 769px) {
   header h1 {
     font-size: 2.2rem;
