@@ -22,7 +22,7 @@ Les pages demandées :
 
 _Bonus :_
 
-- une page panel admin ou panel client/user
+- une page pour choisir le panel admin ou le panel client/user
 - un espace administrateur comprennant 3 pages
   - liste des clients
   - liste des commandes
