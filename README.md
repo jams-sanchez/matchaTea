@@ -6,7 +6,7 @@
 
 Sur ce site, vous trouverez le thé Matcha ainsi qu'une gamme élargi de toutes sortes de thé. Vous découvrirez une équipe passionné et les valeurs derrière les créateurs de l'entreprise.
 
-## 📓 Le projet
+## 📓 Le projet 
 
 Dans le cadre d'un projet de groupe, nous avions 1 semaine pour développer la partie Front d'un site e-commerce dans le domaine du thé, en suivant un zoning fourni.
 
@@ -31,7 +31,7 @@ _Bonus :_
 > [!NOTE]
 > Nous avions carte blanche pour la charte graphique.
 
-## 💪 L'équipe
+## 💪 L'équipe 
 
 👤 Yannick [@Bossola-Yannick](https://github.com/bossola-yannick)
 
@@ -39,7 +39,7 @@ _Bonus :_
 
 👤 James 
 
-## 💻 Les technologies
+## 💻 Les technologies 
 
 **Langages:**
 
@@ -52,7 +52,7 @@ _Bonus :_
 - **Figma** _pour la conception de la maquette_
 - **Git** et **Github** _pour stocker, partager et travailler en équipe_
 
-## 💭 Charte graphique
+## 📝 Charte graphique 
 
 ![Image de la charte graphique.](/images/charte-graphique.png)
 
@@ -60,5 +60,5 @@ _Bonus :_
 
 Vous pouvez découvrir le site créé grâce à Github Pages
 
-[Matcha Pépite](https://jams-sanchez.github.io/matchaTea/)🍂
+🍃[Matcha Pépite](https://jams-sanchez.github.io/matchaTea/)🍃
 
