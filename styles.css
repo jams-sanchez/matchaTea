@@ -346,7 +346,7 @@ footer {
     transform: scale(1.1);
 }
 
-@media screen and (min-width:429px)and (max-width:769px) {
+@media screen and (max-width:769px) {
     
     header h1 {
         font-size: 2.2rem;
