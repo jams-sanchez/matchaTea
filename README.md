@@ -4,7 +4,7 @@
 
 > Originaire de Chine, le matcha est surtout devenu une tradition au Japon, avec la cérémonie du thé. Les moines bouddhistes le consomment d’ailleurs depuis des siècles pour leur méditation.
 
-Sur ce site, vous trouverez le thé Matcha ainsi qu'une gamme élargi de toutes sortes de thé. Vous découvrirez une équipe passionné et les valeurs derrière les créateurs de l'entreprise.
+Sur ce site, vous trouverez le thé Matcha ainsi qu'une gamme élargie de toutes sortes de thé. Vous découvrirez une équipe passionnée et les valeurs derrière les créateurs de l'entreprise.
 
 ## 📓 Le projet 
 
@@ -22,11 +22,12 @@ Les pages demandées :
 
 _Bonus :_
 
-- une page pour choisir le panel admin ou le panel client/user
-- un espace administrateur comprennant 3 pages
-  - liste des clients
-  - liste des commandes
-  - liste des produits
+- [x] Un espace administrateur comprennant 3 pages:
+  - Liste des clients
+  - Liste des commandes
+  - Liste des produits
+- [ ] Une page pour choisir le panel admin ou le panel client/user
+  - *(Nous avons choisi de faire un easter egg pour accèder à l'espace admin)*
 
 > [!NOTE]
 > Nous avions carte blanche pour la charte graphique.
