@@ -36,9 +36,9 @@ _Bonus :_
 
 👤 Yannick [@Bossola-Yannick](https://github.com/bossola-yannick)
 
-👤 Sandra [@sandraMassonF](https://github.com/sandraMassonF)
+👤 James [@jams-sanchez](https://github.com/jams-sanchez)
 
-👤 James 
+👤 Sandra [@sandraMassonF](https://github.com/sandraMassonF)
 
 ## 💻 Les technologies 
 
